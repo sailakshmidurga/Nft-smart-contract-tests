@@ -12,7 +12,7 @@ The project follows all requirements from the assignment:
 
 ---
 
-## ## 📌 Features
+## 📌 Features
 
 ### **Smart Contract**
 
@@ -27,7 +27,7 @@ The project follows all requirements from the assignment:
 
 ---
 
-## ## 📁 Project Structure
+## 📁 Project Structure
 
 ```
 nft-assignment/
@@ -44,7 +44,7 @@ nft-assignment/
 
 ---
 
-# ## 🧰 Tech Stack
+## 🧰 Tech Stack
 
 * **Solidity 0.8.28**
 * **Hardhat**
@@ -55,9 +55,9 @@ nft-assignment/
 
 ---
 
-# ## 📜 Contract Overview
+## 📜 Contract Overview
 
-### Constructor
+### **Constructor**
 
 ```solidity
 constructor(
@@ -67,7 +67,7 @@ constructor(
 )
 ```
 
-### Key Functions
+### **Key Functions**
 
 | Function                                | Description                           |
 | --------------------------------------- | ------------------------------------- |
@@ -79,21 +79,21 @@ constructor(
 
 ---
 
-# ## 🧪 Running Tests (Local)
+## 🧪 Running Tests (Local)
 
-Compile:
+### **Compile**
 
 ```bash
 npx hardhat compile
 ```
 
-Run test suite:
+### **Run tests**
 
 ```bash
 npx hardhat test
 ```
 
-Expected result:
+Expected output:
 
 ```
 5 passing
@@ -110,7 +110,7 @@ Tests include:
 
 ---
 
-# ## 🐳 Docker Instructions
+## 🐳 Docker Instructions
 
 The included Dockerfile enables reproducible execution without installing Hardhat manually.
 
@@ -130,25 +130,23 @@ The container will:
 
 * install dependencies
 * compile the contract
-* execute the entire Hardhat test suite automatically
+* run the full Hardhat test suite
 
-All tests must pass for a valid submission.
+All tests must pass for evaluation.
 
 ---
 
-# ## ▶️ How Evaluators Can Verify
-
-Evaluators only need to run:
+## ▶️ How Evaluators Can Verify
 
 ```bash
 docker build -t nft-contract .
 docker run --rm nft-contract
 ```
 
-No additional steps, keys, or network access required.
+No additional steps, keys, or external network required.
 
 ---
 
-# ## 👩‍💻 Author
+## 👩‍💻 Author
 
 **Sai Lakshmi Durga Koneti**
